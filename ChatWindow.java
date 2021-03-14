@@ -168,6 +168,9 @@ public class ChatWindow implements ActionListener {
         } else if (str.equals("Clear")) {
             textField.setText("");
             textField.requestFocus();
+        }else if (str.equals("About")){
+            Dialogs d = new Dialogs("SimpleMsg by Kelompok 4-OOP");
+            d.show();
         }
     }
 

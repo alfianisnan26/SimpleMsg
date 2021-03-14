@@ -31,10 +31,7 @@ public class ContactWindow implements ActionListener {
         menuBar = new JMenuBar();
         JMenu menu = new JMenu("Menu");
         JMenuItem menuExit = new JMenuItem("Exit");
-        JMenuItem menuAbout = new JMenuItem("Check Request");
         menuExit.addActionListener(this);
-        menuAbout.addActionListener(this);
-        menu.add(menuAbout);
         menu.add(menuExit);
         menuBar.add(menu);
         frame.setJMenuBar(menuBar);
