@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Dialogs
+comment1.params=str
+comment1.target=Dialogs(java.lang.String)
+comment2.params=
+comment2.target=void\ show()
+comment3.params=
+comment3.target=void\ dispose()
+numComments=4

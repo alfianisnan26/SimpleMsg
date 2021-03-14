@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=DataAccount
+comment1.params=sender\ receiver
+comment1.target=DataAccount(java.lang.String,\ java.lang.String)
+numComments=2

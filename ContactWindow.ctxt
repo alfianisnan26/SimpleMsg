@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ContactWindow
+comment1.params=username
+comment1.target=ContactWindow(java.lang.String)
+comment2.params=
+comment2.target=void\ run()
+comment3.params=title
+comment3.target=void\ loadWindow(java.lang.String)
+comment4.params=
+comment4.target=void\ loadUI()
+comment5.params=e
+comment5.target=void\ actionPerformed(java.awt.event.ActionEvent)
+numComments=6

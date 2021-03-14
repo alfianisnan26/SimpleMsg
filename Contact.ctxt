@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Contact
+comment1.params=sender
+comment1.target=Contact(java.lang.String)
+comment10.params=receiver
+comment10.target=java.lang.String\ add(java.lang.String)
+comment2.params=
+comment2.target=javax.swing.JScrollPane\ panelInit()
+comment3.params=e
+comment3.target=void\ adjustmentValueChanged(java.awt.event.AdjustmentEvent)
+comment4.params=
+comment4.target=void\ mainUpdate()
+comment5.params=chat
+comment5.target=void\ addPanel(ChatWindow)
+comment6.params=e
+comment6.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment7.params=e
+comment7.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment8.params=
+comment8.target=boolean\ uploadContact()
+comment9.params=
+comment9.target=boolean\ downloadContact()
+numComments=11

@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Hasher
+comment1.params=input
+comment1.target=java.lang.String\ md5(java.lang.String)
+numComments=2
