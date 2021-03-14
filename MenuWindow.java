@@ -7,7 +7,6 @@ public class MenuWindow implements ActionListener{
     private JPasswordField passTextField;
     private JFrame loginFrame;
     private JLabel alertLabel;
-    public boolean state = false;
     public void Login(){
         loginFrame = new JFrame("Login");
         JLabel appLabel = new JLabel("Simple Instant Messaging App", JLabel.CENTER);

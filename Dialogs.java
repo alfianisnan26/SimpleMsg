@@ -3,7 +3,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 
 public class Dialogs {
-    JDialog error;
+    private JDialog error;
     public Dialogs(String str){
         error = new JDialog();
         error.add(new JLabel(str, JLabel.CENTER));
