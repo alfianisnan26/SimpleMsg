@@ -16,11 +16,45 @@ public class ContactWindow implements ActionListener {
         contact.downloadContact();
         loadWindow(username + " Contact");
         loadUI();
-        Runtime.getRuntime().addShutdownHook(new Thread(new Runnable() {
-            public void run() {
-                contact.uploadContact();
+        frame.addWindowListener(new WindowListener(){
+
+            @Override
+            public void windowOpened(WindowEvent e) {
+                
             }
-        }, "Shutdown-thread"));
+
+            @Override
+            public void windowClosing(WindowEvent e) {
+                contact.uploadContact();
+                
+            }
+
+            @Override
+            public void windowClosed(WindowEvent e) {
+                
+            }
+
+            @Override
+            public void windowIconified(WindowEvent e) {
+                
+            }
+
+            @Override
+            public void windowDeiconified(WindowEvent e) {
+                
+            }
+
+            @Override
+            public void windowActivated(WindowEvent e) {
+             
+            }
+
+            @Override
+            public void windowDeactivated(WindowEvent e) {
+                
+            }
+            
+        });
         frame.setVisible(true);
     }
 

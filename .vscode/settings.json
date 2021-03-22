@@ -1,0 +1,11 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "d:\\Programming\\Libraries\\okhttp5.0.0\\annotations-13.0.jar",
+        "d:\\Programming\\Libraries\\okhttp5.0.0\\kotlin-stdlib-1.4.21.jar",
+        "d:\\Programming\\Libraries\\okhttp5.0.0\\kotlin-stdlib-common-1.4.10.jar",
+        "d:\\Programming\\Libraries\\okhttp5.0.0\\okhttp-5.0.0-alpha.2.jar",
+        "d:\\Programming\\Libraries\\okhttp5.0.0\\okio-2.9.0.jar"
+    ],
+    "java.dependency.packagePresentation": "flat"
+}

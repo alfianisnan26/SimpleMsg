@@ -99,9 +99,12 @@ public class MenuWindow implements ActionListener{
                 }
             }
             if(Database.loginUser(unameTextField.getText(), passTextField.getPassword())){
+                Dialogs d = new Dialogs("Signing in...");
+                d.start();
                 new ContactWindow(unameTextField.getText());
                 loginFrame.setVisible(false);
                 loginFrame.dispose();
+                d.dispose();
                 return;
             }else{
                 alertUpdate("Error Cannot Login, Please Retry");

@@ -3,8 +3,11 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 
 public class Dialogs {
-    private JDialog error;
-    public Dialogs(String str){
+    
+    String str;
+    public JDialog error;
+    public Dialogs(String str) {
+        this.str = str;
         error = new JDialog();
         error.add(new JLabel(str, JLabel.CENTER));
         error.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
@@ -13,7 +16,7 @@ public class Dialogs {
         error.revalidate();
     }
 
-    public void show(){
+    public void start(){
         error.setVisible(true);
     }
 
